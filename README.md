@@ -75,6 +75,22 @@ I am a Manager in the Data Science competency at **PwC Consulting**, where I lea
 
 ---
 
+## Flagship Open-Source Project
+
+### [Agentic RCA Platform](https://github.com/raj75114043-design/agentic-rca-platform) — Multi-Agent Root-Cause Analysis for Network Operations
+
+[![CI](https://github.com/raj75114043-design/agentic-rca-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/raj75114043-design/agentic-rca-platform/actions/workflows/ci.yml) [![Live](https://img.shields.io/badge/Live_Demo-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://raj-agentic-rca-platform.streamlit.app)
+
+| | |
+|---|---|
+| **Problem** | Delayed or failed telecom sites have causes scattered across ERP orders, permits, crew rosters and NOC incidents |
+| **Solution** | LangGraph agents (Router → Planner → Executor → Analyst → Verifier loop → Responder) gather evidence, rank hypotheses, write a cited report and propose actions for human approval |
+| **Stack** | LangGraph · MCP · PostgreSQL · Neo4j · FastAPI · Prometheus · Docker · Groq Llama 3.3 / Ollama |
+| **Guardrails** | Catalog-constrained planning, Pydantic-validated tools, citation validation, iteration budget, human-in-the-loop |
+| **Quality** | Labelled evaluation with a CI quality gate; integration tests against PostgreSQL and Neo4j |
+
+---
+
 ## Projects — Built, Tested and Deployed
 
 > Ten end-to-end projects in the [ai-ml-portfolio](https://github.com/raj75114043-design/ai-ml-portfolio) repository, each in its own folder with a web application, automated tests, CI, a published Docker image and synthetic data.
